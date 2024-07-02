@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+         table, th ,td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+
+        <thead>
+            <th>회원구분</th>
+            <th>
+                <form>
+                    <input type="radio"><td>개인회원</td>
+                </form>
+            </th>
+            <th>
+                <form>
+                    <input type="radio"><td>사업자회원</td>
+                </form>
+            </th>
+            <th>
+                <form>
+                    <input type="radio"><td>외국인회원(foreigner)</td>
+                </form>
+            </th>
+        </thead>
+
+        <tbody>
+            <th>아이디</th>
+            <td>
+                <form>
+                    <input type="text"><td>(영문소문자/숫자, 4~16자)</td>
+                </form>
+            </td>
+            
+            
+        </tbody>
+        <br>
+        <th>비밀번호</th>
+        <td>
+            <form>
+                <input type="password"><td>(영문 대소문자/숫자/특수문자 중 2가지 이상 조합)</td>
+            </form>
+        </td>
+        
+        <tbody><th>비밀번호 확인</th>
+            <td>
+                <form>
+                    <input type="password">
+                </form>
+            </td>
+        </tbody>
+        <th>이름</th>
+        <td>
+            <form>
+                <input type="text">
+            </form>
+        </td>
+        <tbody>
+            <th>휴대전화</th>
+            <td>
+                <select>
+                    <option>010</option>
+                    <option>011</option>
+                    <option>016</option>
+                    <option>017</option>
+                    <option>018</option>
+                    <option>019</option>
+                </select>
+            </td>
+            <td>
+                <form>
+                    <input type="number">
+                </form>
+            </td>
+            <td>
+                <form>
+                    <input type="number">
+                </form>
+            </td>
+        </tbody>
+        <th>이메일</th>
+        <td>
+            <form>
+                <input type="email">
+            </form>
+        </td>
+        <tbody>
+            <th>이메일 수신여부</th>
+            <td>
+                <form>
+                    <input type="checkbox"><td>동의함</td>
+                </form>
+                
+            </td>
+            
+        </tbody>
+        <th></th>
+        <td>쇼핑몰에서 제공하는 유익한 이벤트 소식을 이메일로 받으실 수 있습니다.</td>
+
+    </table>
+</body>
+</html>
