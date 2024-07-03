@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/3a115195d8.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <form>
@@ -23,13 +24,21 @@
                     <select>
                         <option>N</option>
                     </select>
+                </td>
+                <td>
                     <select>
                         <option>Y</option>
                     </select>
+                </td>
+                <td>
                     <select>
                         <option>수정일</option>
                     </select>
+                </td>
+                <td>
                     <input type="date">
+                </td>
+                <td>
                     <input type="date">
                 </td>
             </tr>
@@ -38,9 +47,17 @@
                     <select>
                         <option>검색구분</option>
                     </select>
+                </td>
+                <td>
                     <input type="search" placeholder="검색어">
-                    <input type="button" value="ㅇ">
-                    <input type="button" value="d">
+                </td>
+                <td>
+                    <button>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <button>
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </button>
                 </td>
             </tr>
             <tr>
@@ -76,7 +93,7 @@
                 <td>테테테</td>
                 <td>278</td>
                 <td></td>
-                <td>ㅁㄴㅇㄹ</td>
+                <td><font color="blue">ㅁㄴㅇㄹ</font></td>
                 <td></td>
                 <td>Y</td>
                 <td>1</td>
@@ -92,7 +109,7 @@
                 <td>로그인.로그인UI</td>
                 <td>272</td>
                 <td></td>
-                <td>사용자</td>
+                <td><font color="blue">사용자</font></td>
                 <td></td>
                 <td>Y</td>
                 <td>1</td>
@@ -108,7 +125,7 @@
                 <td>로그인.로그인UI</td>
                 <td>273</td>
                 <td></td>
-                <td>관리자</td>
+                <td><font color="blue">관리자</font></td>
                 <td></td>
                 <td>Y</td>
                 <td>2</td>
@@ -121,10 +138,10 @@
                 </td>
                 <td>168</td>
                 <td>32</td>
-                <td>qun.타입</td>
+                <td>qna.타입</td>
                 <td>266</td>
                 <td></td>
-                <td style="color: blue;">기타</td>
+                <td><font color="blue">기타</font></td>
                 <td></td>
                 <td>Y</td>
                 <td>1</td>
@@ -137,10 +154,10 @@
                 </td>
                 <td>167</td>
                 <td>31</td>
-                <td>qun.상태</td>
+                <td>qna.상태</td>
                 <td>262</td>
                 <td></td>
-                <td style="color: blue;">미확인</td>
+                <td><font color="blue">미확인</font></td>
                 <td></td>
                 <td>Y</td>
                 <td>1</td>
@@ -158,8 +175,11 @@
             </tr>
             <tr>
                 <td>
-                    <input type="button" value="x" onclick="location.href='form.html'">
-                    <input type="button" value="클릭">
+                    <input type="button" 
+                           style="background-color: red;" 
+                           value="x" 
+                           onclick="location.href='form.html'">
+                    <button><i class="fa-solid fa-trash"></i></button>
                 </td>
                 <td></td>
                 <td></td>
@@ -171,9 +191,9 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td style="text-align: right;">
+                <td align="right">
                     <input type="button" value="클릭">
-                    <input type="button" value="클릭">
+                    <input type="button" style="background-color:mediumturquoise;" value="+">
                 </td>
             </tr>
         </table>
